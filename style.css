@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Righteous&display=swap');
+
+/* FONTS 
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Righteous', cursive;
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.top{
+    text-align: center;
+    padding: 5rem;
+    background-color: #FF4848;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'Righteous', cursive;
+    color: aliceblue;
+}
+
+.mid{
+    text-align: center;
+    padding: 2rem;
+}
+
+.mid-h2{
+    font-size: 5rem;
+    color: rgb(44, 44, 136);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+}
+
+.video{
+    width: 150rem;
+    height: 40rem;
+}
+
+@media (max-width: 700px) {
+   html{
+    font-size: 10px;
+   }
+    
+
+.top{
+
+    text-align: center;
+    background-color: #FF4848;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Righteous', cursive;
+    color: aliceblue;
+}
+
+.mid{
+    text-align: center;
+}
+
+.mid-h2{
+    font-size: 3rem;
+    color: rgb(44, 44, 136);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+}
+
+.video{
+    width: 30rem;
+    height: 20rem;
+}
+
+
+
+    
+}
